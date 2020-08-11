@@ -10028,7 +10028,7 @@ This section discusses various variables that you might want to
 change (or @strong{not} change) for safety reasons.
 
 Git keeps @strong{committed} changes around long enough for users to recover
-changes they have accidentally been deleted.  It does not do the same
+changes they have accidentally deleted.  It does not do the same
 for @strong{uncommitted} changes in the working tree and not even the index
 (the staging area).  Because Magit makes it so easy to modify
 uncommitted changes, it also makes it easy to shoot yourself in the
